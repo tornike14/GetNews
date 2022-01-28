@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/ACER/AndroidStudioProjects/GetNews/app/src/main/res/layout/activity_auth.xml" value="0.24320652173913043" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/GetNews/app/src/main/res/layout/activity_change_password.xml" value="0.2164855072463768" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/GetNews/app/src/main/res/layout/activity_fragments.xml" value="0.24592391304347827" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/GetNews/app/src/main/res/layout/activity_login.xml" value="0.24864130434782608" />
@@ -13,8 +14,6 @@
         <entry key="..\:/Users/ACER/AndroidStudioProjects/GetNews/app/src/main/res/layout/fragment_profile.xml" value="0.24592391304347827" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/GetNews/app/src/main/res/layout/fragment_selections.xml" value="0.24592391304347827" />
         <entry key="..\:/Users/ACER/AndroidStudioProjects/GetNews/app/src/main/res/menu/menu.xml" value="0.26979166666666665" />
-        <entry key="..\:/Users/n.kakhidze/AndroidStudioProjects/GetNews/app/src/main/res/layout/fragment_news.xml" value="0.1203125" />
-        <entry key="..\:/Users/n.kakhidze/AndroidStudioProjects/GetNews/app/src/main/res/layout/poster_item.xml" value="0.1203125" />
       </map>
     </option>
   </component>

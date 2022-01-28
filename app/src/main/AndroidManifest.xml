@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GetNews">
         <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
             android:name=".ChangePasswordActivity"
             android:exported="false" />
         <activity
@@ -25,7 +28,7 @@
             android:name=".FragmentsActivity"
             android:exported="false" />
         <activity
-            android:name=".LoginActivity"
+            android:name=".AuthActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
