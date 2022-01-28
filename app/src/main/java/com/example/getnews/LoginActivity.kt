@@ -37,6 +37,8 @@ class LoginActivity : AppCompatActivity() {
         buttonResetPassword = findViewById(R.id.buttonResetPassword)
     }
 
+
+
     private fun clickListeners() {
         buttonRegistration.setOnClickListener {
             startActivity(Intent(this, RegistrationActivity::class.java))
