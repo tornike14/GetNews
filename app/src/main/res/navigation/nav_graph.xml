@@ -8,16 +8,16 @@
     <fragment
         android:id="@+id/NewsFragment"
         android:name="com.example.getnews.fragments.NewsFragment"
-        android:label="fragment_news"
+        android:label="News"
         tools:layout="@layout/fragment_news" />
     <fragment
         android:id="@+id/ProfileFragment"
         android:name="com.example.getnews.fragments.ProfileFragment"
-        android:label="fragment_profile"
+        android:label="My profile"
         tools:layout="@layout/fragment_profile" />
     <fragment
         android:id="@+id/SelectionsFragment"
         android:name="com.example.getnews.fragments.SelectionsFragment"
-        android:label="fragment_selections"
+        android:label="My List"
         tools:layout="@layout/fragment_selections" />
 </navigation>
