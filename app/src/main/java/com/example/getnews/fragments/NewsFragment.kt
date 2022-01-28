@@ -16,7 +16,6 @@ class NewsFragment : Fragment(R.layout.fragment_news) {
     private lateinit var recyclerView: RecyclerView
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-
         recyclerView = view.findViewById(R.id.recyclerView)
         recyclerView.layoutManager = LinearLayoutManager(context)
         recyclerView.adapter = RecyclerViewPoster(getPersonData())
@@ -53,10 +52,26 @@ class NewsFragment : Fragment(R.layout.fragment_news) {
         )
         posterList.add(
             Person(
-                3,
+                4,
                 "https://bs-uploads.toptal.io/blackfish-uploads/components/seo/content/og_image_file/og_image/777062/ethereum-solidity-oracle-contracts-pt2-cd3dbde2a52e64e709b7244efaf925b1.png",
                 "Solidity",
                 "Learn easily",
+            )
+        )
+        posterList.add(
+            Person(
+                5,
+                "https://beincrypto.com/wp-content/uploads/2022/01/github.png",
+                "Linus Torvalds",
+                "I am Satoshi",
+            )
+        )
+        posterList.add(
+            Person(
+                6,
+                "https://github.blog/wp-content/uploads/2021/12/GitHub-code-search_banner.png?fit=1200%2C630",
+                "GitHub",
+                "Is GitHub Safe?",
             )
         )
         return posterList
