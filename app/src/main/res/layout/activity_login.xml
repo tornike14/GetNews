@@ -55,10 +55,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="15dp"
             android:layout_marginRight="40dp"
-            android:paddingTop="10dp"
-            android:paddingBottom="7dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
             android:text="Login"
             app:cornerRadius="12dp" />
 
@@ -66,12 +66,24 @@
             android:id="@+id/buttonRegistration"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Registration" />
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="40dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:text="Registration"
+            app:cornerRadius="12dp"/>
 
         <Button
             android:id="@+id/buttonResetPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Reset Password" />
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="40dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:text="Reset Password"
+            app:cornerRadius="12dp"/>
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
