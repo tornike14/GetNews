@@ -8,6 +8,7 @@ import android.widget.Button
 import android.widget.TextView
 import com.example.getnews.ChangePasswordActivity
 import com.example.getnews.R
+import com.example.getnews.authFragments.Login
 import com.google.firebase.auth.FirebaseAuth
 
 class ProfileFragment : Fragment(R.layout.fragment_profile) {
@@ -30,7 +31,7 @@ class ProfileFragment : Fragment(R.layout.fragment_profile) {
     private fun profileListeners() {
         buttonLogout.setOnClickListener {
             FirebaseAuth.getInstance().signOut()
-            startActivity(Intent(context, LoginActivity::class.java))
+            startActivity(Intent(context, Login::class.java))
         }
 
         buttonChangePassword.setOnClickListener {
