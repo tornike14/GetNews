@@ -62,7 +62,6 @@ class Login: Fragment(R.layout.activity_login) {
                         Toast.makeText(context, "Something went wrong!", Toast.LENGTH_SHORT).show()
                     }
                 }
-
         }
     }
 
