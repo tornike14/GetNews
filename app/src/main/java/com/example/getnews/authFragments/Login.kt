@@ -10,7 +10,6 @@ import androidx.fragment.app.Fragment
 import com.example.getnews.FragmentsActivity
 import com.example.getnews.PasswordResetActivity
 import com.example.getnews.R
-import com.example.getnews.RegistrationActivity
 import com.google.firebase.auth.FirebaseAuth
 
 class Login: Fragment(R.layout.activity_login) {
@@ -30,7 +29,7 @@ class Login: Fragment(R.layout.activity_login) {
         buttonResetPassword = view.findViewById(R.id.buttonResetPassword)
 
         if (FirebaseAuth.getInstance().currentUser != null) {
-            goToProfile()
+            goToFragments()
         }
 
         clickListeners()
@@ -39,7 +38,7 @@ class Login: Fragment(R.layout.activity_login) {
 
     private fun clickListeners() {
         buttonRegistration.setOnClickListener {
-            startActivity(Intent(context, RegistrationActivity::class.java))
+            startActivity(Intent(context, Register::class.java))
         }
 
         buttonResetPassword.setOnClickListener {
@@ -58,7 +57,7 @@ class Login: Fragment(R.layout.activity_login) {
                 .signInWithEmailAndPassword(email, password)
                 .addOnCompleteListener { task ->
                     if(task.isSuccessful) {
-                        goToProfile()
+                        goToFragments()
                     } else {
                         Toast.makeText(context, "Something went wrong!", Toast.LENGTH_SHORT).show()
                     }
@@ -67,7 +66,7 @@ class Login: Fragment(R.layout.activity_login) {
         }
     }
 
-    private fun goToProfile() {
+    private fun goToFragments() {
         startActivity(Intent(context, FragmentsActivity::class.java))
     }
 }
