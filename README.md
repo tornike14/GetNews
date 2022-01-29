@@ -5,6 +5,11 @@
 
 "Get News" is an application that allows you to quickly and easily view topics of interest to you. Subscribe and enjoy our app <3
 
+# Screenshots
+
+![SCREENS2](https://user-images.githubusercontent.com/59829771/151657858-ef907f7c-f723-435f-9d75-b7ef60f4c6d3.png)
+
+
 # How It Works
 
 ## Authorization
