@@ -16,3 +16,8 @@
 **Firebase services:** Authentication
 
 **Libraries & Components:** Naviagtion Component, Recycler View, View Pager
+
+# Creators
+
+**Tornike Nizharadze** 
+**Nikusha Kakhidze**
