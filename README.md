@@ -14,4 +14,6 @@
 ## Key components
 
 Firebase services: Authentication
+
+
 Libraries & Components: Naviagtion Component, Recycler View, View Pager
