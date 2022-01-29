@@ -29,8 +29,8 @@ class ChangePasswordActivity : AppCompatActivity() {
         buttonChangePassword.setOnClickListener {
             val newPassword = editTextNewPassword.text.toString()
 
-            if(newPassword.isEmpty()) {
-                Toast.makeText(this, "Empty!", Toast.LENGTH_SHORT).show()
+            if(newPassword.isEmpty() || newPassword.length < 8) {
+                Toast.makeText(this, "New password doesn't match requirements!", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 

@@ -32,8 +32,11 @@ class Register: Fragment(R.layout.activity_registration) {
             val email = editTextRegisterEmail.text.toString()
             val password = editTextRegisterPassword.text.toString()
 
-            if(email.isEmpty() || password.isEmpty()) {
+            if(email.isEmpty() || (password.isEmpty())) {
                 Toast.makeText(context, "Empty!", Toast.LENGTH_SHORT).show()
+                return@setOnClickListener
+            } else if(password.length < 8) {
+                Toast.makeText(context, "Password isn't correct!", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
             }
 
