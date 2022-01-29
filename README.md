@@ -13,7 +13,6 @@
 
 ## Key components
 
-Firebase services: Authentication
+**Firebase services:** Authentication
 
-
-Libraries & Components: Naviagtion Component, Recycler View, View Pager
+**Libraries & Components:** Naviagtion Component, Recycler View, View Pager
