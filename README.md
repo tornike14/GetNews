@@ -3,13 +3,13 @@
 
 # Get News
 
-"Get News" არის აპლიკაცია, რომლის საშუალებითაც შეგიძლია სწრაფად და მარტივად ნახოთ თქვენთვის საინტერესო თემები. გამოიწერე და ისიამოვნე ჩვენი აპლიკაციით <3
+"Get News" is an application that allows you to quickly and easily view topics of interest to you. Subscribe and enjoy our app <3
 
 # How It Works
 
 ## Authorization
 
-აპლიკაციაზე რეგისტრაცია შეგიძლიათ იმეილითა და პაროლით. იმ შემთხვევაში თუ თქვენ არ გაქვთ ექაუნთი შექმნილი, შეგიძლიათ დარეგისტრდეთ. ასევე, იმ შემთხვევაში თუ დაგავიწყდათ პაროლი, შეგიძლიათ თქვენს მეილზე გაგზავნოთ ლინკი, რომელიც საშუალებას მოგცემთ შექმნათ ახალი პაროლი. ასევე, გაქვთ ვარიანთი თქვენივე სურვილისამებრ შეცვალოთ პაროლი.
+You can register for the application by email and password. In case you do not have an account created, you can register. Also, in case you forgot your password, you can send a link to your email that will allow you to create a new password. Also, you have the option to change the password at will.
 
 ## Key components
 
